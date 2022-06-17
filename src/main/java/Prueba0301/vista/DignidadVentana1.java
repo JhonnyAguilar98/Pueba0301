@@ -73,7 +73,7 @@ public class DignidadVentana1 extends javax.swing.JFrame {
 
         jLabel1.setText("Codigo:");
 
-        jTable2.setBackground(new java.awt.Color(0, 153, 153));
+        jTable2.setBackground(new java.awt.Color(102, 102, 102));
         jTable2.setForeground(new java.awt.Color(204, 255, 255));
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

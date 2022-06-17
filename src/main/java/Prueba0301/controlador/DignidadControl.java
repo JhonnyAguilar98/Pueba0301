@@ -16,7 +16,7 @@ public class DignidadControl {
     private final DignidadServicio dignidadServicio = new DignidadServicio();
     
     public Dignidad crear(String [] params){
-        var dignidad = new Dignidad(Integer.valueOf(params[0]),params[1]);
+        var dignidad = new Dignidad(params[0],params[1],params[2],Integer.valueOf(params[3]));
         this.dignidadServicio.crear(dignidad);
         return dignidad;
     }
